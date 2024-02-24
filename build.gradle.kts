@@ -31,4 +31,13 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:$logback_version")
     testImplementation("io.ktor:ktor-server-tests-jvm")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
+
+    //email client
+    implementation("org.simplejavamail:simple-java-mail:8.6.3")
+
+    //koin
+    implementation("io.insert-koin:koin-core-coroutines:3.4.1")
+    implementation("io.insert-koin:koin-ktor:3.4.1")
+    implementation("io.insert-koin:koin-logger-slf4j:3.4.1")
+
 }
